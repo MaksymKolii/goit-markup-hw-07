@@ -1,0 +1,18 @@
+.header-contacts{
+    display: flex;
+    margin-left: auto;
+}
+.mail-icon, 
+.phone-icon{
+    fill: currentColor;
+    margin-right: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.phone-icon:hover,
+.mail-icon:hover,
+.phone-icon:focus,
+.mail-icon:focus
+{
+    fill: var(--accent-color);
+}
