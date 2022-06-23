@@ -4,15 +4,14 @@
 }
 .contact-form-field{
     margin-bottom: 10px;
+    &.last{
+        margin-bottom: 20px;
+    }
 }
 
 .contact-form-input-wrapper{
     position: relative;
     display: block;
-}
-
-.contact-form-field.last{
-    margin-bottom: 20px;
 }
 
 .contact-form-input{
@@ -22,14 +21,11 @@
     border: 1px solid var(--contact-form-field-border);
     border-radius: 4px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contact-form-input:focus{
-    outline: none;
-    border-color: var(--accent-color);
-}
 
-.contact-form-input:focus + .contact-form-icon{
-    fill: var(--accent-color);
+    &:focus{
+        outline: none;
+        border-color: var(--accent-color);
+    }
 }
 .contact-form-field-key{
     display: block;
@@ -59,6 +55,10 @@
     left: 12px;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .contact-form-input:focus+ &{
+        fill: var(--accent-color);
+     }
 }
 
 .contact-form-message{
@@ -70,20 +70,24 @@
     resize: none;
     padding: 12px 16px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contact-form-message:focus{
-    outline: none;
-    border-color: var(--accent-color);
+    
+    &:focus{
+        outline: none;
+        border-color: var(--accent-color);
 
+    }
+    
+    &::placeholder{
+        font-family:var(--primary-font-family);
+        font-weight: var(--primary-font-weight);
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.01em;
+        color: var(--contact-form-field-placeholder-text-color);
+    }
 }
-.contact-form-message::placeholder{
-    font-family:var(--primary-font-family);
-    font-weight: var(--primary-font-weight);
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.01em;
-    color: var(--contact-form-field-placeholder-text-color);
-}
+
+/* Checkbox */
 .contact-form-checkbox-label{
     display: flex;
     align-items: center;
@@ -96,35 +100,38 @@
     letter-spacing: var(--primary-letter-spacing);
     color: var(--main-p-color);
     margin-bottom: 30px;
+    
+    &::before{
+        display: block;
+        content: '';
+        width: 16px;
+        height: 15px;
+        border: 2px solid var(--logo-dark-color);
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 4px;
+        
+        .contact-form-checkbox:checked + &{
+             background-color:var(--accent-color);
+            border-color: var(--accent-color);
+            background-image: url("../images/modal-icons/choose-mark-icon.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 11px 8px;
+        }
+        
+        .contact-form-checkbox:focus + &{
+            border: 2px solid var(--accent-color);
+        } 
+    }
+    
+    &.checkbox-link{
+        text-decoration: underline;
+        color: var(--accent-color);
+    }
 }
 
-/* Checkbox */
-.contact-form-checkbox-label::before{
-    display: block;
-    content: '';
-    width: 16px;
-    height: 15px;
-    border: 2px solid var(--logo-dark-color);
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 4px;
-}
-.contact-form-checkbox:checked + .contact-form-checkbox-label::before{
-    background-color:var(--accent-color);
-    border-color: var(--accent-color);
-    background-image: url("../images/modal-icons/choose-mark-icon.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 11px 8px;
-}
-.contact-form-checkbox:focus + .contact-form-checkbox-label::before{
-    /* border: 2px solid var(--logo-dark-color); */
-    border: 2px solid var(--accent-color);
-}
-.contact-form-checkbox-label>a{
-    text-decoration: underline;
-    color: var(--accent-color);
-}
+
 .contact-form-btn{
     min-width: 200px;
     font-family: inherit;
@@ -141,8 +148,10 @@
     padding: 10px 32px;
     border: 1px solid transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+        background-color: var(--btn-other-color); 
+    }
 }
-.contact-form-btn:hover,
-.contact-form-btn:focus {
-    background-color: var(--btn-other-color);
-}
+
