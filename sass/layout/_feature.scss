@@ -24,11 +24,11 @@
     flex-wrap: wrap;
     margin: -15px;
 }
-.feature-item{
+.feature-list__item{
     margin: 15px;
     flex-basis: calc((100% - 120px) / 4);
 }
-.feature-item-icon-wrapper{
+.feature-list__wrapper{
     display: flex;
     width: 270px; 
     height: 120px;
