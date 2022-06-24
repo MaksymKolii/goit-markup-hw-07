@@ -29,7 +29,7 @@
     }
 }
 
-.nav-list__link-active{
+.nav-list_active{
     color: var(--accent-color);
     &::after{   
         content: '';
