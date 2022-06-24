@@ -6,11 +6,11 @@
     display: flex;
 }
 
-.nav-item:not(:last-child){
+.nav-list__item:not(:last-child){
     margin-right: 50px;
 }
 
-.nav-link{
+.nav-list__link{
     display: block;
     position: relative; 
     font-weight: 500;
@@ -29,7 +29,7 @@
     }
 }
 
-.link-active{
+.nav-list__link-active{
     color: var(--accent-color);
     &::after{   
         content: '';
