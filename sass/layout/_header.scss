@@ -1,11 +1,9 @@
-.page-header{
+.header{
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: var(--header-border-color);
-    padding-top: 0;
-    padding-bottom: 0;
 }
-.page-header-container{
+.header__container{
     display: flex;
     align-items: center;
     /* -- Можно justify-content: space-between; если 2 флекс элемента, и убрать margin-left: auto; в header-contacts ---*/  

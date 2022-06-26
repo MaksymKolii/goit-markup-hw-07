@@ -1,20 +1,19 @@
-.work-list{
+.work{
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
 }
-.work-item{
+.work__item{
     position: relative;
     flex-basis: calc((100% - 90px) / 3);
     margin-left: 30px;
     margin-top: 30px;
 }
-.work-title{
+.work__title{
     position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %align;
+    @extend %h3-title;
     left: 0%;
     bottom: 0%;
     width: 100%;
@@ -22,7 +21,4 @@
     color: var(--main-white-color);
     background: rgba(47, 48, 58, 0.8);
     margin-bottom: 0;
-}
-.section-work{
-    padding-top: 0;
 }
