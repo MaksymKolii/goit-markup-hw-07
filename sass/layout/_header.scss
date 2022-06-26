@@ -2,9 +2,18 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: var(--header-border-color);
+
+    &__container{
+        display: flex;
+        align-items: center;
+    }
+    &__contacts{
+        display: flex;
+        margin-left: auto;
+    }
 }
-.header__container{
-    display: flex;
-    align-items: center;
-    /* -- Можно justify-content: space-between; если 2 флекс элемента, и убрать margin-left: auto; в header-contacts ---*/  
-}
+// .header__container{
+//     display: flex;
+//     align-items: center;
+//     /* -- Можно justify-content: space-between; если 2 флекс элемента, и убрать margin-left: auto; в header-contacts ---*/  
+// }

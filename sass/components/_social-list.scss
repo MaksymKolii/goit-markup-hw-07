@@ -16,7 +16,7 @@
         background-color: var(--accent-color);
     }
     
-    &.social-footer{
+    &--footer{
         fill: var(--main-white-color);
         background-color: var(--footer-social-link-col);
 
@@ -29,7 +29,7 @@
 
 
 
-.social-list-icon{
+.social-list__icon{
     fill: var(--icons-main-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     
