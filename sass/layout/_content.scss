@@ -11,7 +11,7 @@
 
 .content__overlay{
     position: absolute;
-    font-weight: var(--primary-font-weight);
+    font-weight: $primary-font;
     font-size: 18px;
     line-height: 1.56;
     letter-spacing: var(--primary-letter-spacing);

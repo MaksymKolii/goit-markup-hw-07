@@ -22,7 +22,7 @@ a{
     text-decoration: none;
 }
 body{
-    font-family:var(--primary-font-family);
+    font-family: $primary-font-family;
     background-color: var(--main-white-color);
-    color: var(--main-p-color);
+    color: $main-text-color;
 }

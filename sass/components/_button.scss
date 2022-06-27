@@ -1,7 +1,7 @@
 .button{
     min-width: 200px;
     font-family: inherit;
-    font-weight: var(--secondary-font-weight);
+    font-weight: $secondary-font;
     font-size: 16px;
     line-height: 1.88;
     cursor: pointer;
@@ -16,7 +16,7 @@
 
     &:hover,
     &:focus{
-        background-color: var(--btn-other-color); 
+        background-color: $btn-hover-col; 
     }
 
     &--form{

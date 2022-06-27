@@ -5,7 +5,7 @@
 }
 
 %h3-title{
-    font-weight: var(--secondary-font-weight);
+    font-weight: $secondary-font;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -13,7 +13,7 @@
 }
 
 %p-text{
-    font-weight: var(--primary-font-weight);
+    font-weight: $primary-font;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: var(--primary-letter-spacing);

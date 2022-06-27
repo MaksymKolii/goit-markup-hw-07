@@ -1,5 +1,5 @@
 .content__title{
-    font-weight: var(--secondary-font-weight);
+    font-weight: $secondary-font;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -7,9 +7,9 @@
     margin-bottom: 4px;
 }
 .content__text{
-    font-weight: var(--primary-font-weight);
+    font-weight: $primary-font;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: var(--primary-letter-spacing);
-    color: var(--main-p-color);
+    color: $main-text-color;
 }

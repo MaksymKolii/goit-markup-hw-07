@@ -27,19 +27,18 @@
     }
 
     &__key{
-        display: block;
-        font-family: var(--primary-font-family);
-        font-weight: var(--primary-font-weight);
+        display: $primary-font-family;
+        font-weight: $primary-font;
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.01em;
         margin-bottom: 4px;
-        color: var(--main-p-color);
+        color: $main-text-color;
     }
 
     &__topic{
-        font-family: var(--primary-font-family);
-        font-weight: var(--secondary-font-weight);
+        font-family: $primary-font-family;
+        font-weight: $secondary-font;
         font-size: 20px;
         line-height: 1.15;
         text-align: center;
@@ -79,8 +78,8 @@
     }
     
     &::placeholder{
-        font-family:var(--primary-font-family);
-        font-weight: var(--primary-font-weight);
+        font-family: $primary-font-family;
+        font-weight: $primary-font;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.01em;
