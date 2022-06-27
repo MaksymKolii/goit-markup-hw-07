@@ -8,7 +8,7 @@
         }
     }
     &__link{
-        color: var(--footer-link-col);
+        color: $footer-link-col;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
         &:hover,
@@ -21,15 +21,15 @@
     }
     &__title{
         @extend %h3-title;
-        color: var(--main-white-color);
+        color: $white-color;
         margin-bottom: 20px;
     }
 }
 .footer__link--location{
-    color: var(--main-white-color);
+    color: $white-color;
     &:hover,
     &:focus{
-    color: var(--main-white-color);
+    color: $white-color;
     }
 }
 .address-block{

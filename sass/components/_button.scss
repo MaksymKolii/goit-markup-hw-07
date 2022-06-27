@@ -5,9 +5,9 @@
     font-size: 16px;
     line-height: 1.88;
     cursor: pointer;
-    letter-spacing: var(--secondary-letter-spacing);
-    box-shadow: var(--hero-btn-box-shadow);
-    color: var(--main-white-color);
+    letter-spacing: $secondary-letter-spacing;
+    box-shadow: $hero-btn-shadow;
+    color: $white-color;
     background-color: $accent-color;
     border-radius: 4px;
     padding: 10px 32px;

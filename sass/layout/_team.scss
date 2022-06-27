@@ -8,8 +8,8 @@
     flex-basis: calc((100% - 120px) / 4);
     margin-left: 30px;
     margin-top: 30px;
-    background: var(--main-white-color);
-    box-shadow: var(--box-shadow-team-item-box);
+    background: $white-color;
+    box-shadow: $team-box-shadow;
     border-radius: 0px 0px 4px 4px;
 }
 .team__wrapper{
@@ -20,8 +20,8 @@
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: var(--primary-letter-spacing);
-    color: var(--main-h-color);
+    letter-spacing: $prim-letter-spacing;
+    color: $heading-text-color;
     margin-bottom: 10px;
 }
 .team__text{
@@ -30,7 +30,7 @@
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: var(--primary-letter-spacing);
+    letter-spacing: $prim-letter-spacing;
 
     margin-bottom: 16px;
 }

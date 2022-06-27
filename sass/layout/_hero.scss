@@ -22,7 +22,7 @@
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    letter-spacing: var(--secondary-letter-spacing);
+    letter-spacing: $secondary-letter-spacing;
     text-transform: uppercase;
-    color: var(--main-white-color);
+    color: $white-color;
 }

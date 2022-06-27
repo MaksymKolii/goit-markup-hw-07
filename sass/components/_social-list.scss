@@ -7,7 +7,7 @@
    @extend %align;
     width: 44px;
     height: 44px;
-    background-color: var(--main-white-color);
+    background-color: $white-color;
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
@@ -17,8 +17,8 @@
     }
     
     &--footer{
-        fill: var(--main-white-color);
-        background-color: var(--footer-social-link-col);
+        fill: $white-color;
+        background-color: $footer-social-link-col;
 
         &:hover,
         &:focus{
@@ -34,7 +34,7 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     
     .social-list__link:hover &, .social-list__link:focus &{
-        fill: var(--main-white-color);
+        fill: $white-color;
     }
 }
 

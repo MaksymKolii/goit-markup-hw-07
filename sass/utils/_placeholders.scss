@@ -9,14 +9,14 @@
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    letter-spacing: var(--primary-letter-spacing);
+    letter-spacing: $prim-letter-spacing;
 }
 
 %p-text{
     font-weight: $primary-font;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: var(--primary-letter-spacing);
+    letter-spacing: $prim-letter-spacing;
     margin-top: 0px; 
 }
 

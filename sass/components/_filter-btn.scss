@@ -3,12 +3,12 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
-    letter-spacing: var(--primary-letter-spacing);
+    letter-spacing: $prim-letter-spacing;
     border: none;
 
     font-family: inherit;
-    color: var(--main-h-color);
-    background: var(--main-bg-lite-color);
+    color: $heading-text-color;
+    background: $bg-lite-col;
     border-radius: 4px;
     cursor: pointer;
     padding: 6px 22px;
@@ -18,9 +18,8 @@
     &:hover,
     &:focus{
         background-color:$accent-color;
-        box-shadow: var(--box-shadow-filter);
+        box-shadow: $filter-box-shadow;
         border-radius: 4px;
-        color: var(--main-white-color);
+        color: $white-color;
     }
 }
-

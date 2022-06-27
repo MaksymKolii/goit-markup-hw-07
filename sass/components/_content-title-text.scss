@@ -3,13 +3,13 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--main-h-color);
+    color: $heading-text-color;
     margin-bottom: 4px;
 }
 .content__text{
     font-weight: $primary-font;
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: var(--primary-letter-spacing);
+    letter-spacing: $prim-letter-spacing;
     color: $main-text-color;
 }

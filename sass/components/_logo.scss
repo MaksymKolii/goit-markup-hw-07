@@ -1,9 +1,9 @@
 .logo{
-    font-family: var(--secondary-font-family);
+    font-family: $secondary-font-family;
     font-weight: $secondary-font;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: var(--primary-letter-spacing);
+    letter-spacing: $prim-letter-spacing;
     color: $accent-color;
     
     padding: 24px 0; 
@@ -13,7 +13,7 @@
 }
 
 .logo-dark {
-    color: var(--logo-dark-color);
+    color: $logo-dark-color;
 }
 .footer__logo{
     display: inline-block;
@@ -23,5 +23,5 @@
 }
 .logo-light, 
 .footer-link-location{
-    color: var(--main-white-color)
+    color: $white-color;
 }
