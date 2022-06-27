@@ -21,8 +21,8 @@
         margin-right: 4px;
         
         .checkbox:checked + &{
-             background-color:var(--accent-color);
-            border-color: var(--accent-color);
+             background-color:$accent-color;
+            border-color: $accent-color;
             background-image: url("../images/modal-icons/choose-mark-icon.svg");
             background-repeat: no-repeat;
             background-position: center;
@@ -30,13 +30,13 @@
         }
         
         .checkbox:focus + &{
-            border: 2px solid var(--accent-color);
+            border: 2px solid $accent-color
         } 
     }
     
     & .checkbox__link{
         text-decoration: underline;
-        color: var(--accent-color);
+        color: $accent-color;
     }
 }
 

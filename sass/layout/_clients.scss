@@ -23,7 +23,7 @@
     
         &:hover,
         &:focus{
-        border: 1px solid var(--accent-color);
+        border: 1px solid $accent-color;
         }
     }
     
@@ -38,7 +38,7 @@
 
     .clients__link:hover &,
     .clients__link:focus &{
-    fill: var(--accent-color);
+    fill: $accent-color;
     }
 }
     
