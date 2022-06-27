@@ -3,9 +3,7 @@
     @extend %align;
     flex-wrap: wrap;
     font-family: $primary-font-family;
-    font-weight: $primary-font;
-    font-size: 14px;
-    line-height: 24px;
+    @include font();
     letter-spacing: $prim-letter-spacing;
     color: $main-text-color;
     margin-bottom: 30px;

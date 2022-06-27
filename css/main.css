@@ -103,7 +103,7 @@ body {
 .section__title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
+  line-height: 1.1666666667;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -115,7 +115,7 @@ body {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.875;
   cursor: pointer;
   letter-spacing: 0.06em;
   box-shadow: rgba(0, 0, 0, 0.15);
@@ -278,7 +278,7 @@ body {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1428571429;
   align-items: center;
   letter-spacing: 0.02em;
   padding-top: 32px;
@@ -363,17 +363,18 @@ body {
   border-color: #2196F3;
 }
 .contact-form__key {
-  display: "Roboto", sans-serif;
+  display: block;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.17;
+  line-height: 1.1666666667;
   letter-spacing: 0.01em;
   margin-bottom: 4px;
   color: #757575;
 }
 .contact-form__topic {
   font-family: "Roboto", sans-serif;
-  font-weight: var(--secondary-font-weight);
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
@@ -412,7 +413,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1428571429;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -429,7 +430,7 @@ body {
 .content__text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.875;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -440,7 +441,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   color: #757575;
   margin-bottom: 30px;

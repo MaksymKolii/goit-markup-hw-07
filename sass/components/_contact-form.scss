@@ -27,10 +27,9 @@
     }
 
     &__key{
-        display: $primary-font-family;
-        font-weight: $primary-font;
-        font-size: 12px;
-        line-height: 1.17;
+        display: block;
+        font-family: $primary-font-family;
+        @include font($fs:12px,$lh:14px);
         letter-spacing: 0.01em;
         margin-bottom: 4px;
         color: $main-text-color;
@@ -38,9 +37,7 @@
 
     &__topic{
         font-family: $primary-font-family;
-        font-weight: var(--secondary-font-weight);
-        font-size: 20px;
-        line-height: 1.15;
+        @include font($fw:700,$fs:20px, $lh:23px);
         text-align: center;
         letter-spacing: $prim-letter-spacing;
         color: $heading-text-color;
@@ -79,9 +76,7 @@
     
     &::placeholder{
         font-family: $primary-font-family;
-        font-weight: $primary-font;
-        font-size: 14px;
-        line-height: 1.14;
+        @include font($lh:16px);
         letter-spacing: 0.01em;
         color: $placeholder-text-color;
     }
