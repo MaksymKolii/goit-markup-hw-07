@@ -13,7 +13,7 @@
     margin-right: 12px;
     letter-spacing: $prim-letter-spacing;
     color: $white-color;
-    border: 1px solid var(--subscription-form-input-border-clr);
+    border: 1px solid $subscription-form-input-border-clr;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
 
