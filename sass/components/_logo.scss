@@ -5,23 +5,26 @@
     line-height: 1.19;
     letter-spacing: $prim-letter-spacing;
     color: $accent-color;
-    
-    padding: 24px 0; 
+    padding: 24px 0;
+    .logo__dark{
+        color: $logo-dark-color;
+    } 
+    .logo__light{
+        color: $white-color; 
+    }
 }
 .header__logo {
     margin-right: 93px;
 }
 
-.logo-dark {
-    color: $logo-dark-color;
-}
+
 .footer__logo{
     display: inline-block;
     margin-right: 0;
     margin-bottom: 20px;
     padding: 0%;
 }
-.logo-light, 
+ 
 .footer-link-location{
     color: $white-color;
 }

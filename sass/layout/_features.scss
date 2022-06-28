@@ -1,24 +1,24 @@
-.feature__title{
+.features__title{
     @extend %h3-title;
     color: $heading-text-color;
     margin-top: 0px;
     margin-bottom: 10px;
 }
 
-.feature__text{
+.features__text{
     @extend %p-text;
 }
 
-.feature{
+.features{
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
 }
-.feature__item{
+.features__item{
     margin: 15px;
     flex-basis: calc((100% - 120px) / 4);
 }
-.feature__wrapper{
+.features__wrapper{
     @extend %align;
     width: 270px; 
     height: 120px;

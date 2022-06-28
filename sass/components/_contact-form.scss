@@ -1,18 +1,18 @@
 .contact-form{
     display: flex;
     flex-direction: column; 
-    &__field{
+    .contact-form__field{
         margin-bottom: 10px;
         &--last{
             margin-bottom: 20px;
         }
     }
 
-    &__wrapper{
+    .contact-form__wrapper{
         position: relative;
         display: block;
     }
-    &__input{
+    .contact-form__input{
         width: 100%;
         height: 40px;
         padding-left: 42px;
@@ -26,7 +26,7 @@
         }
     }
 
-    &__key{
+    .contact-form__key{
         display: block;
         font-family: $primary-font-family;
         @include font($fs:12px,$lh:14px);
@@ -35,7 +35,7 @@
         color: $main-text-color;
     }
 
-    &__topic{
+    .contact-form__topic{
         font-family: $primary-font-family;
         @include font($fw:700,$fs:20px, $lh:23px);
         text-align: center;
