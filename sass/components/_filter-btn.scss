@@ -1,8 +1,7 @@
 .filter-btn {
     min-width: 73px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
+
+    @include font($fw:500, $fs:16px,$lh:26px);
     letter-spacing: $prim-letter-spacing;
     border: none;
 

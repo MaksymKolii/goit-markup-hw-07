@@ -1,5 +1,5 @@
 .content__title{
-    @include font($sf:700, $fs:18px,$lh:36px);
+    @include font($fw:700, $fs:18px,$lh:36px);
     letter-spacing: 0.06em;
     color: $heading-text-color;
     margin-bottom: 4px;
