@@ -190,8 +190,8 @@ body {
 }
 .nav__link--active::after {
   content: "";
-  position: absolute;
   display: block;
+  position: absolute;
   left: 0;
   bottom: -1px;
   width: 100%;
