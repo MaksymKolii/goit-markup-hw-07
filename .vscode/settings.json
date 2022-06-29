@@ -14,5 +14,9 @@
     "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
     "liveSassCompile.settings.generateMap": true,
     "liveServer.settings.port": 1235,
-    "liveSassCompile.settings.autoprefix": null
+    "liveSassCompile.settings.autoprefix": null,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Dark Pro",
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "material-icon-theme.showUpdateMessage": true
   }
